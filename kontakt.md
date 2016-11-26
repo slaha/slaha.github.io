@@ -9,9 +9,9 @@ Kontaktní formulář
 ==================
 
 					
-Můžete mi napsat e-mail na [jan@slahora.cz](mailto:jan@slahora.cz) nebo mě kontaktovat pomocí formuláře:
+Můžete mi napsat e-mail na [web@slahora.cz](mailto:web@slahora.cz) nebo mě kontaktovat pomocí formuláře:
 
-<form method="POST" action="http://formspree.io/jan@slahora.cz">
+<form method="POST" action="http://formspree.io/web@slahora.cz">
 	<fieldset> 
 		<legend>Kontaktní formulář:</legend>
 					
