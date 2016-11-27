@@ -143,5 +143,5 @@ button {
 }
 
 .hidden {
-    visibility: invisible;
+    display: none;
 }
