@@ -37,7 +37,7 @@ Můžete mi napsat e-mail na [web@slahora.cz](mailto:web@slahora.cz) nebo mě ko
 	
 			<p>
 				<input type="text" name="_gotcha" style="display:none" />
-				<input type="hidden" name="_next" value="{{ site.baseurl }}/kontakt.html?sent=true" />
+				<input type="hidden" name="_next" value="{{ site.url }}/kontakt.html?sent=true" />
 				<button type="submit">Odeslat</button>
 			</p>
 	</fieldset>
