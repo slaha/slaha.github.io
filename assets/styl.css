@@ -131,5 +131,6 @@ button {
     font-family: Georgia, "Times New Roman", "Bitstream Vera Serif", serif;
     background-color: #1f3f60;
     border: 0px;
-    padding: 20px 12px;
+    font-size: 0.973em;
+    padding: 25px 4px;
 }
