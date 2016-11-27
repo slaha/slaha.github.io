@@ -125,3 +125,9 @@ fieldset {
 label {
     font-weight: bold;
 }
+
+button {
+    color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", "Bitstream Vera Serif", serif;
+    background-color: #1f3f60;
+}
