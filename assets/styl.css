@@ -134,3 +134,14 @@ button {
     font-size: 0.973em;
     padding: 10px 20px;
 }
+
+.success-message {
+    margin: 10px 0px;
+    padding:12px;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.hidden {
+    visibility: invisible;
+}
