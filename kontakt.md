@@ -17,7 +17,9 @@ Můžete mi napsat e-mail na [web@slahora.cz](mailto:web@slahora.cz) nebo mě ko
 	Protože máte vypnutý javasctipt, není možné využít kontaktní formulář. Napište přímo na e-mail.
 
 </noscript>
- 
+
+<p id="info" class="hidden">E-mail byl úspěšně odeslán.</p>
+
 <form id="contactform" method="POST" class="jsonly">
 	<fieldset> 
 		<legend>Kontaktní formulář:</legend>
@@ -44,6 +46,17 @@ Můžete mi napsat e-mail na [web@slahora.cz](mailto:web@slahora.cz) nebo mě ko
 </form>
 
 <script>
+    
+    function getURLParameter(name) {
+	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+    }
+
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'web' + '@' + 'slahora' + '.' + 'cz');
+    
+    myvar = getURLParameter('sent');
+    if (myvar) {
+	   document.getElementById('info').className = "";;
+    }
+}
 </script>
