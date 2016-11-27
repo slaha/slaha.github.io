@@ -58,5 +58,4 @@ Můžete mi napsat e-mail na [web@slahora.cz](mailto:web@slahora.cz) nebo mě ko
     if (myvar) {
 	   document.getElementById('info').className = "success-message";
     }
-}
 </script>
