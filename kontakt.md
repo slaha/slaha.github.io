@@ -44,5 +44,5 @@ Můžete mi napsat e-mail na [web@slahora.cz](mailto:web@slahora.cz) nebo mě ko
 
 <script>
     var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'jan' + '@' + 'slahora' + '.' + 'cz');
+    contactform.setAttribute('action', '//formspree.io/' + 'web' + '@' + 'slahora' + '.' + 'cz');
 </script>
