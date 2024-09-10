@@ -1,13 +1,8 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 * {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -21,11 +16,7 @@ body {
     overflow: hidden;
     background: url('landscape.webp') bottom left repeat-x;
     background-size: 50vh;
-}
-
-#content {
-    min-height: 50vh;
-    align-content: end;
+    align-content: center;
     text-align: center;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -33,6 +24,11 @@ body {
     font-style: normal;
     font-size: 10vw;
 }
+
+h1 {
+    margin-bottom: 13vw;
+}
+
 a {
     color: rgb(64, 77, 95);
     text-decoration: none;
