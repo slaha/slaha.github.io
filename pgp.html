@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jan Šlahora — PGP klíč</title>
+  <style>
+    body {
+      line-height: 1.5;
+      text-align: center;
+    }
+    
+    div#main {
+      display: inline-block;
+      margin: 0px auto;
+      text-align: left;
+    }
+
+    pre {
+      border: 1px solid darkgray;
+      padding: 10px;
+    }
+
+    samp {
+      background-color: Gainsboro;
+      padding: 3px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <h1>PGP key</h1>
+      
+      <pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEZ0XGXBYJKwYBBAHaRw8BAQdAWn+tBRrerXMz13QNOMuDKcYSDZILFWcjjVmZ
+/CJ2k1+0HUphbiDFoGxhaG9yYSA8amFuQHNsYWhvcmEuY3o+iJkEExYKAEEWIQRk
+7Z6cxFhVxM7e0KaqkxGcr6ou9QUCZ0XGXAIbAwUJBaOagAULCQgHAgIiAgYVCgkI
+CwIEFgIDAQIeBwIXgAAKCRCqkxGcr6ou9aL8AP9ShwazmKOxMLQzkHdZD61uXiPs
+Pt3iJ9cy8wSvQzKUlwEA/bO1RM3mBSWwYT9azFmkjEISmgR4f5dOmQBzxqz37QC4
+OARnRcZcEgorBgEEAZdVAQUBAQdA7YnG8b7+Hrg2cpDOtRk9XbEJlX+mRFCvwxQ6
+csSICXwDAQgHiH4EGBYKACYWIQRk7Z6cxFhVxM7e0KaqkxGcr6ou9QUCZ0XGXAIb
+DAUJBaOagAAKCRCqkxGcr6ou9VOkAP9ldvzOEB1cU/JWqqwrlXjZOdAURzLdIjVQ
+ZO8G2//0ywD/ZkzOOsJIUS/Wwgscw2I9nwId6QyXx6o9mp7807sAYAc=
+=hx3m
+-----END PGP PUBLIC KEY BLOCK-----</code></pre>
+
+    <p>
+      Key is valid till 2027-11-26.
+
+    <h2>Usage</h2>
+    <p>
+      To encrypt data with the key, <a href="pgp.txt">download the key</a> and execute:
+
+    <pre><code>gpg --encrypt --recipient-file "pgp.txt" --output "encrypted" < "plain"</code></pre>
+    
+    where 
+    <ul>
+      <li><samp>pgp.txt</samp> is downloaded public key,
+      <li><samp>encrypted</samp> is path to output file,
+      <li><samp>plain</samp> is path to file to encrypt.
+    </ul>
+  </div>
+</body>
+
+</html>
